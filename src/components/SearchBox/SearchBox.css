@@ -1,0 +1,27 @@
+.search-box
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    width: 100vw;
+}
+
+.search-input{
+   
+    height: 95%;
+    width: 60%;
+    padding:1.4%;
+    border-radius: 20px;
+    background-color: lightslategray;
+    box-shadow: white;
+    border: 0cm;
+}
+.search-input::placeholder{
+    color:white;
+}
+
+.search-input:focus{
+    outline:none;
+}
