@@ -1,0 +1,11 @@
+.container-name
+{
+    width: auto;
+    background-color:gray;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin:2%;
+    padding: 1%;
+    border-radius: 20px;
+    justify-content: center;
+}
